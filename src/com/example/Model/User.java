@@ -11,9 +11,6 @@ public class User {
     private String role;
     private Date createDate;
     private Date lastLogicDate;
-
-// Second time updating Git Repository
-
     
     public User(int userId, String username, String email, String password, String address, String role, Date createDate, Date lastLogicDate) {
         this.userId = userId;
@@ -25,6 +22,10 @@ public class User {
         this.createDate = createDate;
         this.lastLogicDate = lastLogicDate;
     }
+  
+  public void printerMethod() {
+    System.out.println("Kingu");
+  }
 
 
     public int getUserId() {
