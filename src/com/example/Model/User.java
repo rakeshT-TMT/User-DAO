@@ -12,7 +12,9 @@ public class User {
     private Date createDate;
     private Date lastLogicDate;
 
+// Second time updating Git Repository
 
+    
     public User(int userId, String username, String email, String password, String address, String role, Date createDate, Date lastLogicDate) {
         this.userId = userId;
         this.username = username;
